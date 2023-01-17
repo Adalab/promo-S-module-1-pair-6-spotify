@@ -1,3 +1,7 @@
+:root {
+  font-family: "Roboto";
+}
+
 .encabezado {
   display: flex;
   background-color: black;
