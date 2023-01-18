@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 :root {
   font-family: "Roboto";
 }
@@ -5,7 +10,7 @@
 .encabezado {
   display: flex;
   background-color: black;
-  max-width: 480px;
+  width: 100%;
   flex-direction: row;
   justify-content: space-between;
   padding: 2%;
@@ -22,11 +27,25 @@
 
 .contenedor1 {
 
-  background-color: #71a0c8
-  
+  background-color: rgb(82, 156, 241);
+  font-family: "roboto";
+  color: white;
+  padding-top: 50px;
+  padding-left: 20px;
+
+}
+
+.titulo2 {
+line-height: 30px;
 }
 
 .boton {
   width: 200px;
   height: 40px;
-}
+  border-radius: 35px;
+  background-color: rgb(38, 183, 88);
+  border-style: none;
+  color: white;
+  font-family: "roboto";
+  
+} 
