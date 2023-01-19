@@ -2,14 +2,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+font-family: 'Roboto', sans-serif;
+   
 }
 
 :root {
-  font-family: "Roboto";
-  font-size: 62.5%;
+   font-size: 62.5%;
 }
 
-.encabezado {
+.encabezado1 {
   display: flex;
   background-color: black;
   width: 100%;
@@ -28,7 +29,7 @@
   height: 5%;
 }
 
-.contenedor1 {
+.encabezado2 {
 
   background-color: rgb(82, 156, 241);
   font-family: "roboto";

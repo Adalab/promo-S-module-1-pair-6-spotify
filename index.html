@@ -5,65 +5,83 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/reset.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/style.css" />
-  <!-- <link rel="stylesheet" href="./css/reset.css" /> -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" />
   <title>SPOTIFY</title>
 </head>
 
 <body>
   <header>
-    <nav class="encabezado">
+    <section class="encabezado1">
+
       <img class="logo" src="./images/logo.png" alt="logotipo de Spotify" />
       <img class="menu" src="./images/menu-icon.png" alt="menu hamburguesa" />
-    </nav>
+
+    </section>
   </header>
 
   <main>
-    <section class="section">
-      <div class="contenedor1">
-        <h1 class="titulo1">Prueba premium gratis 3 meses</h1>
-        <h2 class="titulo2">Escucha millones de canciones sin anuncios, a la carta y sin conexión.</h2>
-        <button class="boton">VER PLANES</button>
-        <p class="parrafo1">
-          <small>
-            Rigen términos y condiciones. Los tres meses gratis no están
-            disponiblas para usuarios que ya hayan probado premium.
-          </small>
-        </p>
-      </div>
+    <section class="encabezado2">
+      <h1 class="titulo1">Prueba premium gratis 3 meses</h1>
+      <h4 class="titulo2">Escucha millones de canciones sin anuncios, a la carta y sin conexión.</h4>
+      <button class="boton">VER PLANES</button>
+      <p class="parrafo1">
+        <small>
+          Rigen términos y condiciones. Los tres meses gratis no están
+          disponiblas para usuarios que ya hayan probado premium.
+        </small>
+      </p>
 
-      <div class="contenedor2">
-        <h3 class="titulo3">¿Por qué pasarte a premium?</h3>
-        <nav>
-          <ul class="cajas_premium">
-            <li>
-              <Llévala>Descarga música. Llévala siempre contigo.
-            </li>
-            <li>Sin anuncios. Disfruta de música sin interrupciones.</li>
-            <li>Escucha lo que quieras. Incluso en el móvil.</li>
-            <li>Salta todas las canciones que quieras. Simplemente dale a siguiente.</li>
-          </ul>
-        </nav>
-      </div>
     </section>
+    </div>
+
+    <section class="encabezado3">
+      <h2>¿Por que pasarte a Premium?</h2>
+      <div class="div-second">
+        <img class="imagenes-beneficio" src="./images/benefit-1.png" alt="imagen nota musical">
+        <p class="parrafo">Descarga Musica</p>
+        <p>Llévala siempre conmigo</p>
+
+        <div class="div-second">
+          <img class="imagenes-beneficio" src="./images/benefit-2.png" alt="imagen movil con advertencia">
+          <p class="parrafo">Descarga Musica</p>
+          <p>Llévala siempre conmigo</p>
+        </div>
+
+        <div class="div-second">
+          <img class="imagenes-beneficio" src="./images/benefit-3.png" alt="imagen notas musicales varias">
+          <p class="parrafo">Escucha lo que quieras</p>
+          <p>Incluso en el móvil</p>
+        </div>
+      </div>
+      <div class="div-second">
+        <img class="imagenes-beneficio" src="./images/benefit-4.png" alt="">
+        <div>
+          <p class="parrafo">Escucha lo que quieras</p>
+          <p>Incluso en el móvil</p>
+        </div>
   </main>
 
-  <footer class="footer">
-    <nav>
-      <ul class="lista_linea">
-        <li><a href="#" class="legal">Legal</a></li>
-        <li><a href="#" class="cookies">Cookies</a></li>
-        <li><a href="#" class="Informacion">Información sobre los anuncios</a></li>
+  <footer>
+    <section clas="lista_horizontal">
+      <nav>
+      
+         <a href="#">Legal</a>
+        <a href="#">Cookies</a>
+        <a href="#"> Información sobre los anuncios</a>
       </ul>
-    </nav>
+      </nav>
+      <section class="lista_vertical">
+        <ul>
+          <li>España</li>
+          <li><img src="images/es.svg" atl="Icono de España" class="flag">España</li>
 
-    <nav>
-      <ul class="lista_columna">
-        <li><img class="bandera" src="" alt="" />España</li>
-        <li>© 2019 Spotify AB</li>
-      </ul>
-    </nav>
+          </ul>
+        </nav>
+      </section>
+
+    </section>
   </footer>
 </body>
 
