@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
    
 }
 
@@ -55,6 +55,18 @@ font-family: 'Roboto', sans-serif;
 
 }
 
+.encabezado3 {
+  display: flex;
+  justify-content: center;
+  margin:40px 60px 40px 60px;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Roboto";
+  font-weight: 700;
+
+imagenes-beneficio
+
+}
 .footer {
   background-color: black;
   color: white;
