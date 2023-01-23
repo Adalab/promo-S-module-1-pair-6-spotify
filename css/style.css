@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 
 }
 
@@ -40,6 +40,11 @@
 
 }
 
+.titulo1 {
+  font-weight: 700;
+  font-size: 35px;
+}
+
 .titulo2 {
   line-height: 30px;
 }
@@ -69,4 +74,20 @@
   background-color: black;
   color: white;
   font-size: 1rem;
+}
+
+.div-second {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  background-color: aquamarine;
+
+}
+
+.imagenes-beneficio {
+  width: 25%;
+}
+
+.parrafo {
+  text-align: center;
 }
