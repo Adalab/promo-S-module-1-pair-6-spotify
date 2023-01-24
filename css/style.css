@@ -60,6 +60,15 @@
 
 }
 
+.parrafo1 {
+  width: 300px;
+  font-size: 10px;
+   text-align: start;
+   line-height: 1.5;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+     
 .encabezado3 {
   display: flex;
   justify-content: center;
@@ -80,14 +89,37 @@
   display: flex;
   flex-direction: column;
   text-align: right;
-  background-color: aquamarine;
+  
+  
 
 }
 
 .imagenes-beneficio {
-  width: 25%;
+  width: 15%;
+  float: left;
+  margin-left: 40px;
+  margin-bottom: 25px;
+ 
 }
 
 .parrafo {
-  text-align: center;
+  
+ 
+  
 }
+
+.texto {
+  width: 150px;
+  margin-left: 150px;
+  margin-top: -75px;
+  margin-bottom: 20px;
+  text-align: start;
+  line-height: 2;
+  
+ 
+    
+  }
+
+  .negrita {
+    font-weight: 700;
+  }
