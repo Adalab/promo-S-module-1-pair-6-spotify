@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+.encabezado1 {
+  display: flex;
+  background-color: black;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2%;
+}
+
+.logo {
+  width: 15%;
+  height: 15%;
+}
+
+.menu {
+  width: 5%;
+  height: 5%;
+}
+
+.encabezado2 {
+
+  background-color: rgb(82, 156, 241);
+  font-family: "roboto";
+  color: white;
+  padding-top: 50px;
+  padding-left: 20px;
+  font-size: 2rem;
+
+}
+
+.titulo1 {
+  font-weight: 700;
+  font-size: 35px;
+}
+
+.titulo2 {
+  line-height: 30px;
+}
+
+.boton {
+  width: 200px;
+  height: 40px;
+  border-radius: 35px;
+  background-color: rgb(38, 183, 88);
+  border-style: none;
+  color: white;
+  font-family: "roboto";
+
+}
+
+.encabezado3 {
+  display: flex;
+  justify-content: center;
+  margin: 40px 60px 40px 60px;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Roboto";
+  font-weight: 700;
+}
+
+.lista_horizontal {
+  background-color: black;
+  color: white;
+  font-size: 1rem;
+}
+
+.div-second {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  background-color: aquamarine;
+
+}
+
+.imagenes-beneficio {
+  width: 25%;
+}
+
+.parrafo {
+  text-align: center;
+}
