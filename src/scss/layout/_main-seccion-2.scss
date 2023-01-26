@@ -1,0 +1,31 @@
+.encabezado3 {
+    display: flex;
+    justify-content: center;
+    margin: 40px 60px 40px 60px;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Roboto";
+    font-weight: 700;
+}
+
+.lista_horizontal {
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+}
+
+.div-second {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    background-color: aquamarine;
+
+}
+
+.imagenes-beneficio {
+    width: 25%;
+}
+
+.parrafo {
+    text-align: center;
+}
